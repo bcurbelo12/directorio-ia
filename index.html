@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio Completo de IA - 80+ Inteligencias Artificiales</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Directorio completo de más de 80 inteligencias artificiales incluyendo ChatGPT, Claude, DeepSeek-R1, Qwen 3 y muchas más">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Hero Header -->
+        <header class="header">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="header__title">Directorio Completo de IA</h1>
+                    <p class="header__subtitle">Explora más de <span id="totalCount">80</span> inteligencias artificiales líderes del mundo</p>
+                    
+                    <!-- Stats Dashboard -->
+                    <div class="stats-dashboard">
+                        <div class="stat-card">
+                            <div class="stat-number" id="totalCount">80</div>
+                            <div class="stat-label">Empresas de IA</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="favoritesCount">0</div>
+                            <div class="stat-label">Favoritos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="categoriesCount">25</div>
+                            <div class="stat-label">Categorías</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Search and Actions -->
+                    <div class="search-section">
+                        <div class="search-container">
+                            <div class="search-input-wrapper">
+                                <input type="text" id="searchInput" class="form-control search-input" placeholder="Buscar IA, empresa, ubicación o fundador...">
+                                <button id="clearSearch" class="clear-search-btn" title="Limpiar búsqueda">×</button>
+                            </div>
+                            <div class="search-actions">
+                                <button id="randomBtn" class="btn btn--secondary search-action-btn" title="Empresa aleatoria (Ctrl+R)">
+                                    🎲
+                                </button>
+                                <button id="exportBtn" class="btn btn--secondary search-action-btn" title="Exportar resultados">
+                                    📤
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Enhanced Category Filters -->
+                    <div class="filters-section">
+                        <div class="filters-header">
+                            <h3>Filtrar por Categoría</h3>
+                            <div class="results-count">
+                                <span id="resultsCount">80 resultados</span>
+                            </div>
+                        </div>
+                        
+                        <div class="filters">
+                            <button class="filter-btn active" data-category="all">Todas</button>
+                            <button class="filter-btn" data-category="favorites">Favoritos ⭐</button>
+                            <button class="filter-btn" data-category="text">Texto</button>
+                            <button class="filter-btn" data-category="image">Imagen</button>
+                            <button class="filter-btn" data-category="video">Video</button>
+                            <button class="filter-btn" data-category="productivity">Productividad</button>
+                            <button class="filter-btn" data-category="coding">Programación</button>
+                            <button class="filter-btn" data-category="design">Diseño</button>
+                            <button class="filter-btn" data-category="audio">Audio</button>
+                            <button class="filter-btn" data-category="multimodal">Multimodal</button>
+                            <button class="filter-btn" data-category="platform">Plataforma</button>
+                            <button class="filter-btn" data-category="writing">Escritura</button>
+                            <button class="filter-btn" data-category="enterprise">Empresarial</button>
+                            <button class="filter-btn" data-category="infrastructure">Infraestructura</button>
+                            <button class="filter-btn" data-category="hardware">Hardware</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Featured Companies Section -->
+        <section class="featured-section">
+            <div class="container">
+                <h2 class="section-title">⭐ Destacados del Mes</h2>
+                <div class="featured-grid">
+                    <div class="featured-card">
+                        <div class="featured-icon" style="background: #ff6b6b;">DS</div>
+                        <div class="featured-content">
+                            <h4>DeepSeek-R1</h4>
+                            <p>El modelo que cambió las reglas del juego con solo $6M de entrenamiento</p>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="featured-icon" style="background: #ff7300;">Q3</div>
+                        <div class="featured-content">
+                            <h4>Qwen 3</h4>
+                            <p>Arquitectura MoE con razonamiento híbrido y 119 idiomas</p>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="featured-icon" style="background: #10a37f;">CG</div>
+                        <div class="featured-content">
+                            <h4>ChatGPT</h4>
+                            <p>El pionero que democratizó la IA conversacional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="content-header">
+                    <div class="view-controls">
+                        <h2 class="content-title">Todas las Empresas</h2>
+                        <div class="view-options">
+                            <button class="view-btn active" data-view="grid" title="Vista en cuadrícula">⊞</button>
+                            <button class="view-btn" data-view="list" title="Vista en lista">☰</button>
+                        </div>
+                    </div>
+                    
+                    <div class="sort-controls">
+                        <select id="sortSelect" class="form-control sort-select">
+                            <option value="name">Ordenar por Nombre</option>
+                            <option value="company">Ordenar por Empresa</option>
+                            <option value="date">Ordenar por Fecha</option>
+                            <option value="category">Ordenar por Categoría</option>
+                            <option value="location">Ordenar por Ubicación</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Loading State -->
+                <div class="loading-state hidden" id="loadingState">
+                    <div class="loading-spinner"></div>
+                    <p>Cargando empresas de IA...</p>
+                </div>
+                
+                <!-- Cards Grid -->
+                <div class="cards-grid" id="cardsGrid">
+                    <!-- Cards will be generated by JavaScript -->
+                </div>
+                
+                <!-- No Results State -->
+                <div class="no-results hidden" id="noResults">
+                    <div class="no-results-icon">🔍</div>
+                    <h3>No se encontraron resultados</h3>
+                    <p>Intenta con otro término de búsqueda o categoría</p>
+                    <button class="btn btn--primary" onclick="document.getElementById('searchInput').value = ''; currentSearchTerm = ''; filterCompanies();">
+                        Limpiar Filtros
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Enhanced Modal -->
+        <div class="modal hidden" id="modal">
+            <div class="modal__overlay" id="modalOverlay"></div>
+            <div class="modal__content">
+                <button class="modal__close" id="modalClose">&times;</button>
+                
+                <div class="modal__header">
+                    <div class="modal__icon" id="modalIcon"></div>
+                    <div class="modal__title-group">
+                        <h2 class="modal__ai-name" id="modalAiName"></h2>
+                        <p class="modal__company-name" id="modalCompanyName"></p>
+                        <div class="modal__actions">
+                            <button class="modal__favorite-btn" id="modalFavoriteBtn" title="Añadir a favoritos">
+                                ⭐ Favorito
+                            </button>
+                            <button class="modal__share-btn" id="modalShareBtn" title="Compartir">
+                                🔗 Compartir
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal__body">
+                    <div class="modal__section">
+                        <h3>📝 Descripción</h3>
+                        <p id="modalDescription"></p>
+                    </div>
+                    
+                    <div class="modal__section">
+                        <h3>👥 Fundadores</h3>
+                        <p id="modalFounders"></p>
+                    </div>
+                    
+                    <div class="modal__details-grid">
+                        <div class="modal__detail">
+                            <h4>📅 Fecha de Fundación</h4>
+                            <p id="modalFoundingDate"></p>
+                        </div>
+                        
+                        <div class="modal__detail">
+                            <h4>🌍 Ubicación</h4>
+                            <p id="modalLocation"></p>
+                        </div>
+                        
+                        <div class="modal__detail">
+                            <h4>🏷️ Categoría</h4>
+                            <p id="modalCategory"></p>
+                        </div>
+                        
+                        <div class="modal__detail">
+                            <h4>🆔 ID Empresa</h4>
+                            <p id="modalId"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="modal__section">
+                        <h3>💡 Dato Relevante</h3>
+                        <div class="modal__fact" id="modalFact"></div>
+                    </div>
+                </div>
+                
+                <div class="modal__footer">
+                    <div class="modal__navigation">
+                        <button class="btn btn--outline" id="modalPrevBtn">← Anterior</button>
+                        <button class="btn btn--outline" id="modalNextBtn">Siguiente →</button>
+                    </div>
+                    <div class="modal__close-actions">
+                        <button class="btn btn--secondary" id="modalCloseBtn">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recently Viewed Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <h3>Visto Recientemente</h3>
+                <button class="sidebar__toggle" id="sidebarToggle">×</button>
+            </div>
+            <div class="sidebar__content" id="recentlyViewedList">
+                <p class="sidebar__empty">No hay elementos recientes</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <h4>Directorio Completo de IA</h4>
+                        <p>La colección más completa de empresas de inteligencia artificial del mundo.</p>
+                        <p class="footer-stats">
+                            <strong>80+ empresas</strong> • <strong>25+ categorías</strong> • <strong>Actualizado 2025</strong>
+                        </p>
+                    </div>
+                    <div class="footer-features">
+                        <h5>Características</h5>
+                        <ul>
+                            <li>✅ Búsqueda avanzada</li>
+                            <li>✅ Filtros por categoría</li>
+                            <li>✅ Sistema de favoritos</li>
+                            <li>✅ Información detallada</li>
+                            <li>✅ Interfaz responsive</li>
+                        </ul>
+                    </div>
+                    <div class="footer-shortcuts">
+                        <h5>Atajos de Teclado</h5>
+                        <ul>
+                            <li><kbd>Ctrl</kbd> + <kbd>K</kbd> - Buscar</li>
+                            <li><kbd>Ctrl</kbd> + <kbd>R</kbd> - Aleatorio</li>
+                            <li><kbd>Esc</kbd> - Cerrar modal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Directorio de IA. Información compilada de fuentes públicas.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Floating Action Button -->
+        <div class="fab-container">
+            <button class="fab" id="fabMain" title="Acciones rápidas">
+                ⚡
+            </button>
+            <div class="fab-menu" id="fabMenu">
+                <button class="fab-option" id="fabRandom" title="Empresa aleatoria">🎲</button>
+                <button class="fab-option" id="fabFavorites" title="Ver favoritos">⭐</button>
+                <button class="fab-option" id="fabTop" title="Ir arriba">⬆️</button>
+                <button class="fab-option" id="fabExport" title="Exportar">📤</button>
+            </div>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
