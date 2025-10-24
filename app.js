@@ -1,4 +1,4 @@
-// AI Companies Data - Complete dataset with 80+ companies
+// AI Companies Data - Complete dataset with 100 companies (Actualizado Octubre 2024)
 const companiesData = {
   "companies": [
     {
@@ -6,10 +6,17 @@ const companiesData = {
       "aiName": "ChatGPT",
       "companyName": "OpenAI",
       "description": "Conversational AI chatbot and assistant",
-      "founders": ["Sam Altman", "Elon Musk", "Greg Brockman", "Ilya Sutskever", "John Schulman", "Wojciech Zaremba"],
+      "founders": [
+        "Sam Altman",
+        "Elon Musk",
+        "Greg Brockman",
+        "Ilya Sutskever",
+        "John Schulman",
+        "Wojciech Zaremba"
+      ],
       "foundingDate": "Diciembre 2015",
       "location": "San Francisco, California, EE.UU.",
-      "relevantFact": "ChatGPT se lanzó en noviembre de 2022 y alcanzó 100 millones de usuarios en solo 2 meses",
+      "relevantFact": "En octubre 2024, OpenAI cerró una ronda de financiación de $6.6 mil millones valorando la empresa en $157 mil millones, la mayor ronda de capital de riesgo de la historia",
       "category": "text",
       "color": "#10a37f"
     },
@@ -18,10 +25,13 @@ const companiesData = {
       "aiName": "Claude",
       "companyName": "Anthropic",
       "description": "Asistente de IA enfocado en seguridad y utilidad",
-      "founders": ["Dario Amodei", "Daniela Amodei"],
+      "founders": [
+        "Dario Amodei",
+        "Daniela Amodei"
+      ],
       "foundingDate": "2021",
       "location": "San Francisco, California, EE.UU.",
-      "relevantFact": "Fundada por hermanos ex-empleados de OpenAI con enfoque en IA constitucional",
+      "relevantFact": "En octubre 2024, Anthropic presentó Claude 3.5 Sonnet actualizado con capacidad para controlar computadoras como un humano y Claude 3.5 Haiku. Anunció uso de chips TPU de Google Cloud por decenas de miles de millones",
       "category": "text",
       "color": "#d97706"
     },
@@ -30,10 +40,14 @@ const companiesData = {
       "aiName": "Gemini",
       "companyName": "Google (Google DeepMind)",
       "description": "Modelo de IA multimodal de Google",
-      "founders": ["Larry Page", "Sergey Brin (Google)", "Demis Hassabis (DeepMind)"],
+      "founders": [
+        "Larry Page",
+        "Sergey Brin (Google)",
+        "Demis Hassabis (DeepMind)"
+      ],
       "foundingDate": "Google 1998, Gemini 2023",
       "location": "Mountain View, California, EE.UU.",
-      "relevantFact": "Nombre inspirado en el programa espacial Gemini de la NASA y representa la unión de dos equipos",
+      "relevantFact": "En octubre 2024, Google actualizó Gemini 1.5 Pro con mejoras en calidad de datos y rendimiento. Expandió extensiones de Workspace (Calendar, Keep, Tasks) y logró conformidad SOC 2 y SOC 3",
       "category": "text",
       "color": "#4285f4"
     },
@@ -42,7 +56,10 @@ const companiesData = {
       "aiName": "LLaMA",
       "companyName": "Meta AI",
       "description": "Familia de modelos de lenguaje de código abierto",
-      "founders": ["Mark Zuckerberg (Meta)", "Yann LeCun (Director FAIR)"],
+      "founders": [
+        "Mark Zuckerberg (Meta)",
+        "Yann LeCun (Director FAIR)"
+      ],
       "foundingDate": "Meta 2004, FAIR 2013, LLaMA 2023",
       "location": "Menlo Park, California, EE.UU.",
       "relevantFact": "Modelo completamente open-source que democratiza el acceso a IA avanzada",
@@ -54,10 +71,13 @@ const companiesData = {
       "aiName": "Copilot",
       "companyName": "Microsoft",
       "description": "Asistente de IA integrado en productos Microsoft",
-      "founders": ["Bill Gates", "Paul Allen (Microsoft)"],
+      "founders": [
+        "Bill Gates",
+        "Paul Allen (Microsoft)"
+      ],
       "foundingDate": "Microsoft 1975, Copilot 2023",
       "location": "Redmond, Washington, EE.UU.",
-      "relevantFact": "Primer 'Copilot' fue GitHub Copilot en 2021, ahora integrado en toda la suite Office",
+      "relevantFact": "En octubre 2024, Microsoft anunció agentes autónomos en Copilot Studio para manejar consultas, identificar leads y gestionar inventario. Copilot ahora tiene 2.1 millones de usuarios mensuales en aplicaciones empresariales",
       "category": "productivity",
       "color": "#00bcf2"
     },
@@ -66,7 +86,9 @@ const companiesData = {
       "aiName": "Midjourney",
       "companyName": "Midjourney Inc.",
       "description": "Generador de imágenes con IA desde texto",
-      "founders": ["David Holz"],
+      "founders": [
+        "David Holz"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Fundado por ex-cofundador de Leap Motion, enfocado en arte y imaginación",
@@ -78,7 +100,9 @@ const companiesData = {
       "aiName": "Stable Diffusion",
       "companyName": "Stability AI",
       "description": "Modelo de generación de imágenes de código abierto",
-      "founders": ["Emad Mostaque"],
+      "founders": [
+        "Emad Mostaque"
+      ],
       "foundingDate": "2019",
       "location": "Londres, Reino Unido",
       "relevantFact": "Aunque Stability AI lo comercializa, fue desarrollado por investigadores de la Universidad de Munich",
@@ -90,7 +114,11 @@ const companiesData = {
       "aiName": "Hugging Face",
       "companyName": "Hugging Face Inc.",
       "description": "Plataforma colaborativa para modelos de IA",
-      "founders": ["Clément Delangue", "Julien Chaumond", "Thomas Wolf"],
+      "founders": [
+        "Clément Delangue",
+        "Julien Chaumond",
+        "Thomas Wolf"
+      ],
       "foundingDate": "2016",
       "location": "Nueva York, EE.UU. / París, Francia",
       "relevantFact": "Comenzó como un chatbot para adolescentes y se convirtió en el 'GitHub de la IA'",
@@ -102,7 +130,12 @@ const companiesData = {
       "aiName": "Perplexity",
       "companyName": "Perplexity AI",
       "description": "Motor de búsqueda conversacional con IA",
-      "founders": ["Aravind Srinivas", "Denis Yarats", "Johnny Ho", "Andy Konwinski"],
+      "founders": [
+        "Aravind Srinivas",
+        "Denis Yarats",
+        "Johnny Ho",
+        "Andy Konwinski"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Procesó 780 millones de consultas en mayo de 2025, creciendo 20% mensualmente",
@@ -114,10 +147,12 @@ const companiesData = {
       "aiName": "xAI Grok",
       "companyName": "xAI",
       "description": "IA conversacional con acceso a datos de X (Twitter)",
-      "founders": ["Elon Musk"],
+      "founders": [
+        "Elon Musk"
+      ],
       "foundingDate": "2023",
       "location": "San Francisco, California, EE.UU.",
-      "relevantFact": "Fundada por Elon Musk después de dejar OpenAI, integrada con la plataforma X",
+      "relevantFact": "En octubre 2024, xAI lanzó su API Grok-beta por $5 por millón de tokens de entrada. Grok recibió capacidades de comprensión de imágenes el 28 de octubre. La empresa fue valorada en $50 mil millones",
       "category": "text",
       "color": "#1d4ed8"
     },
@@ -126,10 +161,12 @@ const companiesData = {
       "aiName": "DeepSeek-R1",
       "companyName": "DeepSeek AI",
       "description": "Modelo de IA de razonamiento de bajo costo",
-      "founders": ["Liang Wenfeng"],
+      "founders": [
+        "Liang Wenfeng"
+      ],
       "foundingDate": "Julio 2023",
       "location": "Hangzhou, Zhejiang, China",
-      "relevantFact": "Entrenado por solo $6 millones, rival de GPT-4 y causó caída de $600 mil millones en Nvidia",
+      "relevantFact": "DeepSeek causó impacto global con modelos de bajo costo. En octubre 2024 enfrentó ataques cibernéticos masivos que temporalmente limitaron registros. Continúa siendo referencia en eficiencia de entrenamiento de IA",
       "category": "text",
       "color": "#ff6b6b"
     },
@@ -138,10 +175,13 @@ const companiesData = {
       "aiName": "Qwen 3",
       "companyName": "Alibaba Cloud",
       "description": "Modelo multimodal con arquitectura MoE y razonamiento híbrido",
-      "founders": ["Jack Ma", "Joe Tsai (Alibaba)"],
+      "founders": [
+        "Jack Ma",
+        "Joe Tsai (Alibaba)"
+      ],
       "foundingDate": "Alibaba 1999, Qwen 2023",
       "location": "Hangzhou, China",
-      "relevantFact": "Primer modelo Qwen con sistema de razonamiento híbrido y soporte para 119 idiomas",
+      "relevantFact": "En septiembre 2024, Alibaba lanzó más de 100 modelos Qwen 2.5 de código abierto. En octubre continuó dominando benchmarks superando a GPT-4o y Claude en múltiples evaluaciones",
       "category": "text",
       "color": "#ff7300"
     },
@@ -150,7 +190,9 @@ const companiesData = {
       "aiName": "Moonshot AI (Kimi)",
       "companyName": "Moonshot AI",
       "description": "Chatbot capaz de procesar 2 millones de caracteres chinos",
-      "founders": ["Yang Zhilin"],
+      "founders": [
+        "Yang Zhilin"
+      ],
       "foundingDate": "2023",
       "location": "Beijing, China",
       "relevantFact": "Procesa 100 mil millones de tokens diarios a través de su plataforma Mooncake",
@@ -162,7 +204,9 @@ const companiesData = {
       "aiName": "Baichuan AI",
       "companyName": "Beijing Baichuan Intelligent Technology",
       "description": "Rival chino de OpenAI con enfoque en salud y educación",
-      "founders": ["Wang Xiaochuan"],
+      "founders": [
+        "Wang Xiaochuan"
+      ],
       "foundingDate": "Abril 2023",
       "location": "Beijing, China",
       "relevantFact": "Fundada por ex-CEO de Sogou, valorada en $2.7 mil millones con más de 12 modelos",
@@ -174,7 +218,10 @@ const companiesData = {
       "aiName": "Zhipu AI (GLM)",
       "companyName": "Zhipu AI",
       "description": "Modelos de lenguaje basados en investigación universitaria",
-      "founders": ["Tang Jie", "Liu Zhiyuan"],
+      "founders": [
+        "Tang Jie",
+        "Liu Zhiyuan"
+      ],
       "foundingDate": "2019",
       "location": "Beijing, China",
       "relevantFact": "Emergió directamente del laboratorio de investigación Tsinghua University",
@@ -186,7 +233,9 @@ const companiesData = {
       "aiName": "MiniMax",
       "companyName": "MiniMax",
       "description": "IA generativa para contenido multimodal",
-      "founders": ["Yan Junjie"],
+      "founders": [
+        "Yan Junjie"
+      ],
       "foundingDate": "2021",
       "location": "Shanghai, China",
       "relevantFact": "Parte de los 'AI Tigers' chinos, enfocado en contenido generativo y aplicaciones móviles",
@@ -198,7 +247,9 @@ const companiesData = {
       "aiName": "01.AI (Yi)",
       "companyName": "01.AI",
       "description": "Modelos de IA de código abierto y propietarios",
-      "founders": ["Kai-Fu Lee"],
+      "founders": [
+        "Kai-Fu Lee"
+      ],
       "foundingDate": "2023",
       "location": "Beijing, China",
       "relevantFact": "Fundada por ex-presidente de Google China y reconocido experto en IA",
@@ -210,7 +261,10 @@ const companiesData = {
       "aiName": "ERNIE Bot",
       "companyName": "Baidu",
       "description": "Chatbot de IA integrado con búsqueda de Baidu",
-      "founders": ["Robin Li", "Eric Xu"],
+      "founders": [
+        "Robin Li",
+        "Eric Xu"
+      ],
       "foundingDate": "Baidu 2000, ERNIE 2023",
       "location": "Beijing, China",
       "relevantFact": "Primer gran chatbot chino lanzado en respuesta a ChatGPT, integrado con el ecosistema Baidu",
@@ -222,7 +276,9 @@ const companiesData = {
       "aiName": "Hunyuan",
       "companyName": "Tencent",
       "description": "Modelo de lenguaje grande para uso empresarial",
-      "founders": ["Ma Huateng (Pony Ma)"],
+      "founders": [
+        "Ma Huateng (Pony Ma)"
+      ],
       "foundingDate": "Tencent 1998, Hunyuan 2023",
       "location": "Shenzhen, China",
       "relevantFact": "Debutó en Tencent Cloud para uso empresarial, parte del ecosistema WeChat",
@@ -234,7 +290,9 @@ const companiesData = {
       "aiName": "DouBao",
       "companyName": "ByteDance",
       "description": "IA conversacional de la empresa matriz de TikTok",
-      "founders": ["Zhang Yiming"],
+      "founders": [
+        "Zhang Yiming"
+      ],
       "foundingDate": "ByteDance 2012, DouBao 2023",
       "location": "Beijing, China",
       "relevantFact": "Desarrollado por la empresa detrás de TikTok y alimentado por algoritmos de recomendación avanzados",
@@ -246,10 +304,14 @@ const companiesData = {
       "aiName": "Runway Gen-3",
       "companyName": "Runway AI",
       "description": "Generación de video con IA desde texto",
-      "founders": ["Cristóbal Valenzuela", "Alejandro Matamala", "Anastasis Germanidis"],
+      "founders": [
+        "Cristóbal Valenzuela",
+        "Alejandro Matamala",
+        "Anastasis Germanidis"
+      ],
       "foundingDate": "2018",
       "location": "Nueva York, EE.UU.",
-      "relevantFact": "Valorada en más de $3 mil millones, usada en películas como 'Everything Everywhere All at Once'",
+      "relevantFact": "Runway Gen-3 Alpha continúa siendo líder en generación de video con IA. Valorada en más de $3 mil millones, es usada en producciones cinematográficas profesionales",
       "category": "video",
       "color": "#00ff88"
     },
@@ -258,7 +320,11 @@ const companiesData = {
       "aiName": "Command",
       "companyName": "Cohere",
       "description": "Modelos de lenguaje para aplicaciones empresariales",
-      "founders": ["Aidan Gomez", "Nick Frosst", "Ivan Zhang"],
+      "founders": [
+        "Aidan Gomez",
+        "Nick Frosst",
+        "Ivan Zhang"
+      ],
       "foundingDate": "2019",
       "location": "Toronto, Canadá",
       "relevantFact": "Fundada por co-autor del paper 'Attention Is All You Need' que introdujo los Transformers",
@@ -270,7 +336,11 @@ const companiesData = {
       "aiName": "Mistral 7B",
       "companyName": "Mistral AI",
       "description": "Modelos de lenguaje europeos de código abierto",
-      "founders": ["Arthur Mensch", "Guillaume Lample", "Timothée Lacroix"],
+      "founders": [
+        "Arthur Mensch",
+        "Guillaume Lample",
+        "Timothée Lacroix"
+      ],
       "foundingDate": "2023",
       "location": "París, Francia",
       "relevantFact": "Startup francesa valorada en múltiples miles de millones, enfoque en soberanía digital europea",
@@ -282,7 +352,11 @@ const companiesData = {
       "aiName": "Inflection Pi",
       "companyName": "Inflection AI",
       "description": "IA personal empática y conversacional",
-      "founders": ["Mustafa Suleyman", "Reid Hoffman", "Karén Simonyan"],
+      "founders": [
+        "Mustafa Suleyman",
+        "Reid Hoffman",
+        "Karén Simonyan"
+      ],
       "foundingDate": "2022",
       "location": "Palo Alto, California, EE.UU.",
       "relevantFact": "Fundada por co-fundador de DeepMind, enfocada en IA con inteligencia emocional",
@@ -294,10 +368,14 @@ const companiesData = {
       "aiName": "DALL-E 3",
       "companyName": "OpenAI",
       "description": "Generador de imágenes con IA desde texto",
-      "founders": ["Sam Altman", "Greg Brockman", "Ilya Sutskever"],
+      "founders": [
+        "Sam Altman",
+        "Greg Brockman",
+        "Ilya Sutskever"
+      ],
       "foundingDate": "DALL-E 2021",
       "location": "San Francisco, California, EE.UU.",
-      "relevantFact": "Evolución del primer generador de imágenes viral que democratizó el arte con IA",
+      "relevantFact": "DALL-E 3 de OpenAI se mantiene como líder en generación de imágenes integrada en ChatGPT. Parte del ecosistema de OpenAI valorado en $157 mil millones tras ronda de octubre 2024",
       "category": "image",
       "color": "#10a37f"
     },
@@ -306,7 +384,10 @@ const companiesData = {
       "aiName": "Claude 3.5 Sonnet",
       "companyName": "Anthropic",
       "description": "Modelo de IA avanzado con capacidades multimodales",
-      "founders": ["Dario Amodei", "Daniela Amodei"],
+      "founders": [
+        "Dario Amodei",
+        "Daniela Amodei"
+      ],
       "foundingDate": "Claude 2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Considerado uno de los modelos más seguros y útiles, con enfoque en IA constitucional",
@@ -318,10 +399,13 @@ const companiesData = {
       "aiName": "Sora",
       "companyName": "OpenAI",
       "description": "Generador de videos realistas desde texto",
-      "founders": ["Sam Altman", "Greg Brockman"],
+      "founders": [
+        "Sam Altman",
+        "Greg Brockman"
+      ],
       "foundingDate": "2024",
       "location": "San Francisco, California, EE.UU.",
-      "relevantFact": "Modelo de video que puede generar clips de hasta 60 segundos con calidad cinematográfica",
+      "relevantFact": "Sora de OpenAI continúa en desarrollo como modelo de generación de video. Puede crear clips de hasta 60 segundos con calidad cinematográfica",
       "category": "video",
       "color": "#10a37f"
     },
@@ -330,7 +414,10 @@ const companiesData = {
       "aiName": "SenseTime",
       "companyName": "SenseTime",
       "description": "IA para visión computacional y reconocimiento facial",
-      "founders": ["Tang Xiao'ou", "Xu Li"],
+      "founders": [
+        "Tang Xiao'ou",
+        "Xu Li"
+      ],
       "foundingDate": "2014",
       "location": "Hong Kong, China",
       "relevantFact": "Una de las primeras unicornios de IA china, especializada en visión computacional",
@@ -342,7 +429,10 @@ const companiesData = {
       "aiName": "Character.AI",
       "companyName": "Character Technologies Inc.",
       "description": "Plataforma para crear y chatear con personajes de IA",
-      "founders": ["Noam Shazeer", "Daniel De Freitas"],
+      "founders": [
+        "Noam Shazeer",
+        "Daniel De Freitas"
+      ],
       "foundingDate": "2021",
       "location": "Menlo Park, California, EE.UU.",
       "relevantFact": "Fundada por ex-investigadores de Google, permite crear personajes de IA personalizados",
@@ -354,10 +444,14 @@ const companiesData = {
       "aiName": "Jasper AI",
       "companyName": "Jasper",
       "description": "Asistente de escritura con IA para marketing",
-      "founders": ["Dave Rogenmoser", "JP Morgan", "Chris Hull"],
+      "founders": [
+        "Dave Rogenmoser",
+        "JP Morgan",
+        "Chris Hull"
+      ],
       "foundingDate": "2021",
       "location": "Austin, Texas, EE.UU.",
-      "relevantFact": "Una de las primeras empresas en alcanzar $100M ARR en el espacio de escritura con IA",
+      "relevantFact": "En octubre 2024, Jasper anunció duplicación de ingresos empresariales, alcanzando 850+ clientes enterprise. Lanzó Marketing Workflow Automation y directorio de 80+ AI Apps",
       "category": "writing",
       "color": "#6366f1"
     },
@@ -366,7 +460,10 @@ const companiesData = {
       "aiName": "Copy.ai",
       "companyName": "Copy.ai",
       "description": "Herramienta de escritura con IA para contenido de marketing",
-      "founders": ["Paul Yacoubian", "Chris Lu"],
+      "founders": [
+        "Paul Yacoubian",
+        "Chris Lu"
+      ],
       "foundingDate": "2020",
       "location": "Memphis, Tennessee, EE.UU.",
       "relevantFact": "Una de las primeras herramientas de escritura con IA en alcanzar adopción masiva",
@@ -378,10 +475,13 @@ const companiesData = {
       "aiName": "ElevenLabs",
       "companyName": "ElevenLabs",
       "description": "Síntesis de voz y clonación de voz con IA",
-      "founders": ["Piotr Dabkowski", "Mati Staniszewski"],
+      "founders": [
+        "Piotr Dabkowski",
+        "Mati Staniszewski"
+      ],
       "foundingDate": "2022",
       "location": "Nueva York, EE.UU. / Londres, Reino Unido",
-      "relevantFact": "Líder en síntesis de voz realista, puede clonar voces con solo unos minutos de audio",
+      "relevantFact": "En octubre 2024, ElevenLabs contrató al equipo de Omnivore (app de lectura). Alcanzó $100 millones en ingresos recurrentes anualizados y 331 empleados, con valoración de $6.6 mil millones",
       "category": "audio",
       "color": "#ff7c43"
     },
@@ -390,7 +490,11 @@ const companiesData = {
       "aiName": "Luma AI",
       "companyName": "Luma AI",
       "description": "Generación de video 3D y efectos visuales con IA",
-      "founders": ["Amit Jain", "Alex Yu", "Matthew Tancik"],
+      "founders": [
+        "Amit Jain",
+        "Alex Yu",
+        "Matthew Tancik"
+      ],
       "foundingDate": "2021",
       "location": "Palo Alto, California, EE.UU.",
       "relevantFact": "Especializada en NeRF (Neural Radiance Fields) para captura 3D fotorrealista",
@@ -402,7 +506,10 @@ const companiesData = {
       "aiName": "Otter.ai",
       "companyName": "Otter.ai",
       "description": "Transcripción automática y notas de reuniones con IA",
-      "founders": ["Sam Liang", "Yun Fu"],
+      "founders": [
+        "Sam Liang",
+        "Yun Fu"
+      ],
       "foundingDate": "2016",
       "location": "Mountain View, California, EE.UU.",
       "relevantFact": "Pionero en transcripción de reuniones, usado por millones de profesionales",
@@ -414,7 +521,10 @@ const companiesData = {
       "aiName": "Notion AI",
       "companyName": "Notion Labs",
       "description": "Asistente de IA integrado en workspace colaborativo",
-      "founders": ["Ivan Zhao", "Simon Last"],
+      "founders": [
+        "Ivan Zhao",
+        "Simon Last"
+      ],
       "foundingDate": "Notion 2016, AI 2023",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Integró IA directamente en su plataforma de productividad valorada en $10 mil millones",
@@ -426,7 +536,11 @@ const companiesData = {
       "aiName": "Grammarly",
       "companyName": "Grammarly Inc.",
       "description": "Asistente de escritura con IA para gramática y estilo",
-      "founders": ["Alex Shevchenko", "Max Lytvyn", "Dmytro Lider"],
+      "founders": [
+        "Alex Shevchenko",
+        "Max Lytvyn",
+        "Dmytro Lider"
+      ],
       "foundingDate": "2009",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Una de las primeras aplicaciones de IA mainstream, usada por más de 30 millones de usuarios",
@@ -438,7 +552,12 @@ const companiesData = {
       "aiName": "Synthesia",
       "companyName": "Synthesia",
       "description": "Generación de videos con avatares de IA",
-      "founders": ["Victor Riparbelli", "Steffen Tjerrild", "Matthias Niessner", "Lourdes Agapito"],
+      "founders": [
+        "Victor Riparbelli",
+        "Steffen Tjerrild",
+        "Matthias Niessner",
+        "Lourdes Agapito"
+      ],
       "foundingDate": "2017",
       "location": "Londres, Reino Unido",
       "relevantFact": "Pionero en generación de videos con avatares sintéticos, usado por Fortune 500",
@@ -450,7 +569,10 @@ const companiesData = {
       "aiName": "Deepgram",
       "companyName": "Deepgram",
       "description": "API de reconocimiento de voz con IA para desarrolladores",
-      "founders": ["Scott Stephenson", "Noah Shutty"],
+      "founders": [
+        "Scott Stephenson",
+        "Noah Shutty"
+      ],
       "foundingDate": "2015",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Plataforma de speech-to-text que supera a Google y Amazon en precisión",
@@ -462,7 +584,10 @@ const companiesData = {
       "aiName": "Replicate",
       "companyName": "Replicate Inc.",
       "description": "Plataforma para ejecutar modelos de IA en la nube",
-      "founders": ["Ben Firshman", "Andreas Jansson"],
+      "founders": [
+        "Ben Firshman",
+        "Andreas Jansson"
+      ],
       "foundingDate": "2019",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Permite ejecutar cualquier modelo de IA open-source con una simple API",
@@ -474,7 +599,9 @@ const companiesData = {
       "aiName": "Scale AI",
       "companyName": "Scale AI",
       "description": "Plataforma de datos para entrenar modelos de IA",
-      "founders": ["Alexandr Wang"],
+      "founders": [
+        "Alexandr Wang"
+      ],
       "foundingDate": "2016",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Fundada cuando Wang tenía 19 años, valorada en $13.8 mil millones",
@@ -486,7 +613,11 @@ const companiesData = {
       "aiName": "GitHub Copilot",
       "companyName": "GitHub (Microsoft)",
       "description": "Asistente de programación con IA",
-      "founders": ["Tom Preston-Werner", "Chris Wanstrath", "PJ Hyett (GitHub)"],
+      "founders": [
+        "Tom Preston-Werner",
+        "Chris Wanstrath",
+        "PJ Hyett (GitHub)"
+      ],
       "foundingDate": "GitHub 2008, Copilot 2021",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Primer asistente de código con IA mainstream, entrenado en repositorios públicos de GitHub",
@@ -498,7 +629,12 @@ const companiesData = {
       "aiName": "Cursor",
       "companyName": "Anysphere",
       "description": "Editor de código con IA integrada",
-      "founders": ["Michael Truell", "Sualeh Asif", "Arvid Lunnemark", "Aman Sanger"],
+      "founders": [
+        "Michael Truell",
+        "Sualeh Asif",
+        "Arvid Lunnemark",
+        "Aman Sanger"
+      ],
       "foundingDate": "2022",
       "location": "Nueva York, EE.UU.",
       "relevantFact": "Editor que permite programar usando lenguaje natural, rival directo de VS Code",
@@ -510,7 +646,9 @@ const companiesData = {
       "aiName": "v0",
       "companyName": "Vercel",
       "description": "Herramienta para generar interfaces de usuario con IA",
-      "founders": ["Guillermo Rauch"],
+      "founders": [
+        "Guillermo Rauch"
+      ],
       "foundingDate": "Vercel 2015, v0 2024",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Permite crear componentes React y interfaces web completas usando solo descripciones de texto",
@@ -522,7 +660,11 @@ const companiesData = {
       "aiName": "Replit Ghostwriter",
       "companyName": "Replit",
       "description": "IDE en línea con asistente de programación IA",
-      "founders": ["Amjad Masad", "Max Krohn", "Faris Masad"],
+      "founders": [
+        "Amjad Masad",
+        "Max Krohn",
+        "Faris Masad"
+      ],
       "foundingDate": "2016",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "IDE colaborativo que permite programar desde el navegador con asistencia de IA",
@@ -534,7 +676,10 @@ const companiesData = {
       "aiName": "Tabnine",
       "companyName": "Tabnine",
       "description": "Autocompletado de código con IA",
-      "founders": ["Dror Weiss", "Eran Yahav"],
+      "founders": [
+        "Dror Weiss",
+        "Eran Yahav"
+      ],
       "foundingDate": "2012",
       "location": "Tel Aviv, Israel",
       "relevantFact": "Uno de los primeros asistentes de código con IA, usado por más de 1 millón de desarrolladores",
@@ -546,7 +691,10 @@ const companiesData = {
       "aiName": "Figma AI",
       "companyName": "Figma",
       "description": "Herramientas de diseño potenciadas por IA",
-      "founders": ["Dylan Field", "Evan Wallace"],
+      "founders": [
+        "Dylan Field",
+        "Evan Wallace"
+      ],
       "foundingDate": "Figma 2012, AI 2024",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Integró IA para generar diseños automáticamente en la plataforma de diseño más popular",
@@ -558,7 +706,11 @@ const companiesData = {
       "aiName": "Canva AI",
       "companyName": "Canva",
       "description": "Plataforma de diseño con herramientas de IA",
-      "founders": ["Melanie Perkins", "Cliff Obrecht", "Cameron Adams"],
+      "founders": [
+        "Melanie Perkins",
+        "Cliff Obrecht",
+        "Cameron Adams"
+      ],
       "foundingDate": "Canva 2013, AI 2023",
       "location": "Sydney, Australia",
       "relevantFact": "Valorada en $40 mil millones, integró generación de imágenes y texto con IA",
@@ -570,7 +722,10 @@ const companiesData = {
       "aiName": "Framer AI",
       "companyName": "Framer",
       "description": "Herramienta de diseño web con generación IA",
-      "founders": ["Koen Bok", "Jorn van Dijk"],
+      "founders": [
+        "Koen Bok",
+        "Jorn van Dijk"
+      ],
       "foundingDate": "2014",
       "location": "Amsterdam, Países Bajos",
       "relevantFact": "Permite crear sitios web profesionales usando solo descripciones de texto",
@@ -582,7 +737,10 @@ const companiesData = {
       "aiName": "Tome",
       "companyName": "Tome",
       "description": "Creación de presentaciones con IA",
-      "founders": ["Keith Peiris", "Henri Liriani"],
+      "founders": [
+        "Keith Peiris",
+        "Henri Liriani"
+      ],
       "foundingDate": "2020",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Genera presentaciones completas con texto, imágenes y diseño automáticamente",
@@ -594,7 +752,9 @@ const companiesData = {
       "aiName": "Beautiful.AI",
       "companyName": "Beautiful.AI",
       "description": "Software de presentaciones con diseño automático IA",
-      "founders": ["Mitch Grasso"],
+      "founders": [
+        "Mitch Grasso"
+      ],
       "foundingDate": "2015",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Pionero en usar IA para automatizar el diseño de presentaciones profesionales",
@@ -606,7 +766,9 @@ const companiesData = {
       "aiName": "iFlytek",
       "companyName": "iFlytek Co.",
       "description": "IA especializada en reconocimiento de voz y procesamiento de lenguaje",
-      "founders": ["Liu Qingfeng"],
+      "founders": [
+        "Liu Qingfeng"
+      ],
       "foundingDate": "1999",
       "location": "Hefei, Anhui, China",
       "relevantFact": "Líder chino en tecnología de voz, designado campeón nacional de IA en reconocimiento de voz",
@@ -618,7 +780,11 @@ const companiesData = {
       "aiName": "Megvii Face++",
       "companyName": "Megvii Technology",
       "description": "Plataforma de IA para reconocimiento facial y visión computacional",
-      "founders": ["Yin Qi", "Tang Wenbin", "Yang Mu"],
+      "founders": [
+        "Yin Qi",
+        "Tang Wenbin",
+        "Yang Mu"
+      ],
       "foundingDate": "2011",
       "location": "Beijing, China",
       "relevantFact": "Una de las primeras unicornios de IA china, especializada en visión computacional",
@@ -630,7 +796,10 @@ const companiesData = {
       "aiName": "Yitu Technology",
       "companyName": "Yitu Technology",
       "description": "IA para visión computacional y análisis médico",
-      "founders": ["Zhu Long", "Lin Chenxi"],
+      "founders": [
+        "Zhu Long",
+        "Lin Chenxi"
+      ],
       "foundingDate": "2012",
       "location": "Shanghai, China",
       "relevantFact": "Especializada en IA médica y sistemas de vigilancia inteligente",
@@ -642,7 +811,9 @@ const companiesData = {
       "aiName": "4Paradigm",
       "companyName": "4Paradigm",
       "description": "Plataforma de IA para servicios financieros y empresariales",
-      "founders": ["Dai Wenyuan"],
+      "founders": [
+        "Dai Wenyuan"
+      ],
       "foundingDate": "2014",
       "location": "Beijing, China",
       "relevantFact": "Líder en IA aplicada a servicios financieros y análisis predictivo",
@@ -654,7 +825,9 @@ const companiesData = {
       "aiName": "CloudWalk",
       "companyName": "CloudWalk Technology",
       "description": "IA para reconocimiento facial y sistemas biométricos",
-      "founders": ["Zhou Xi"],
+      "founders": [
+        "Zhou Xi"
+      ],
       "foundingDate": "2015",
       "location": "Guangzhou, China",
       "relevantFact": "Especializada en tecnología biométrica para bancos y sistemas de seguridad",
@@ -666,7 +839,9 @@ const companiesData = {
       "aiName": "DeepL",
       "companyName": "DeepL",
       "description": "Traductor con IA de alta calidad",
-      "founders": ["Jaroslaw Kutylowski"],
+      "founders": [
+        "Jaroslaw Kutylowski"
+      ],
       "foundingDate": "2017",
       "location": "Colonia, Alemania",
       "relevantFact": "Considerado el mejor traductor del mundo, supera a Google Translate en calidad",
@@ -678,7 +853,11 @@ const companiesData = {
       "aiName": "Jasper Chat",
       "companyName": "Jasper AI",
       "description": "Chatbot especializado en marketing y contenido comercial",
-      "founders": ["Dave Rogenmoser", "JP Morgan", "Chris Hull"],
+      "founders": [
+        "Dave Rogenmoser",
+        "JP Morgan",
+        "Chris Hull"
+      ],
       "foundingDate": "2021",
       "location": "Austin, Texas, EE.UU.",
       "relevantFact": "Una de las primeras empresas SaaS de IA en superar $100M en ingresos anuales",
@@ -690,7 +869,9 @@ const companiesData = {
       "aiName": "Writesonic",
       "companyName": "Writesonic",
       "description": "Plataforma de escritura con IA para contenido y SEO",
-      "founders": ["Samanyou Garg"],
+      "founders": [
+        "Samanyou Garg"
+      ],
       "foundingDate": "2021",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Competidor directo de Jasper AI con enfoque en contenido SEO y marketing",
@@ -702,7 +883,10 @@ const companiesData = {
       "aiName": "Lensa AI",
       "companyName": "Prisma Labs",
       "description": "Editor de fotos con IA y generador de avatares",
-      "founders": ["Alexey Moiseenkov", "Andrey Usoltsev"],
+      "founders": [
+        "Alexey Moiseenkov",
+        "Andrey Usoltsev"
+      ],
       "foundingDate": "2016",
       "location": "Moscú, Rusia / Nicosia, Chipre",
       "relevantFact": "Viral en 2022 por sus avatares mágicos generados con IA de Stable Diffusion",
@@ -714,7 +898,10 @@ const companiesData = {
       "aiName": "Pika Labs",
       "companyName": "Pika Labs",
       "description": "Generación de videos cortos con IA desde imágenes",
-      "founders": ["Demi Guo", "Chenlin Meng"],
+      "founders": [
+        "Demi Guo",
+        "Chenlin Meng"
+      ],
       "foundingDate": "2023",
       "location": "Palo Alto, California, EE.UU.",
       "relevantFact": "Fundada por investigadoras de Stanford, competidor directo de Runway en video IA",
@@ -726,7 +913,10 @@ const companiesData = {
       "aiName": "Together AI",
       "companyName": "Together AI",
       "description": "Plataforma de inferencia para modelos de IA open-source",
-      "founders": ["Vipul Ved Prakash", "Ce Zhang"],
+      "founders": [
+        "Vipul Ved Prakash",
+        "Ce Zhang"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Permite ejecutar modelos open-source como Llama y Mistral con alta eficiencia",
@@ -738,7 +928,11 @@ const companiesData = {
       "aiName": "Cognition AI (Devin)",
       "companyName": "Cognition",
       "description": "Primer ingeniero de software con IA completamente autónomo",
-      "founders": ["Scott Wu", "Steven Hao", "Walden Yan"],
+      "founders": [
+        "Scott Wu",
+        "Steven Hao",
+        "Walden Yan"
+      ],
       "foundingDate": "2023",
       "location": "Nueva York, EE.UU.",
       "relevantFact": "Devin puede completar proyectos de software completos de forma autónoma",
@@ -750,7 +944,10 @@ const companiesData = {
       "aiName": "Magic AI",
       "companyName": "Magic",
       "description": "Asistente de programación con contexto muy largo",
-      "founders": ["Eric Steinberger", "Sebastian De Ro"],
+      "founders": [
+        "Eric Steinberger",
+        "Sebastian De Ro"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Trabaja en modelos con ventanas de contexto de millones de tokens",
@@ -762,7 +959,11 @@ const companiesData = {
       "aiName": "Reka AI",
       "companyName": "Reka AI",
       "description": "Modelos multimodales avanzados para empresas",
-      "founders": ["Dani Yogatama", "Yi Tay", "Aitor Lewkowycz"],
+      "founders": [
+        "Dani Yogatama",
+        "Yi Tay",
+        "Aitor Lewkowycz"
+      ],
       "foundingDate": "2022",
       "location": "Londres, Reino Unido / San Francisco, EE.UU.",
       "relevantFact": "Fundada por ex-investigadores de Google DeepMind, especializada en multimodalidad",
@@ -774,7 +975,12 @@ const companiesData = {
       "aiName": "Adept AI",
       "companyName": "Adept",
       "description": "IA que puede interactuar con software como humanos",
-      "founders": ["David Luan", "Niki Parmar", "Ashish Vaswani", "Augustus Odena"],
+      "founders": [
+        "David Luan",
+        "Niki Parmar",
+        "Ashish Vaswani",
+        "Augustus Odena"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Desarrolla IA que puede usar cualquier software a través de la interfaz gráfica",
@@ -786,7 +992,10 @@ const companiesData = {
       "aiName": "Harvey AI",
       "companyName": "Harvey",
       "description": "Asistente de IA especializado en servicios legales",
-      "founders": ["Gabriel Pereyra", "Winston Weinberg"],
+      "founders": [
+        "Gabriel Pereyra",
+        "Winston Weinberg"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Usado por los mejores bufetes de abogados del mundo para investigación legal",
@@ -798,7 +1007,10 @@ const companiesData = {
       "aiName": "Writer",
       "companyName": "Writer",
       "description": "Plataforma de IA generativa para empresas",
-      "founders": ["May Habib", "Waseem Alshikh"],
+      "founders": [
+        "May Habib",
+        "Waseem Alshikh"
+      ],
       "foundingDate": "2020",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Enfocada en IA generativa para equipos empresariales con controles de marca",
@@ -810,7 +1022,10 @@ const companiesData = {
       "aiName": "Anthropic Constitutional AI",
       "companyName": "Anthropic",
       "description": "Marco de entrenamiento para IA más segura y alineada",
-      "founders": ["Dario Amodei", "Daniela Amodei"],
+      "founders": [
+        "Dario Amodei",
+        "Daniela Amodei"
+      ],
       "foundingDate": "2021",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Metodología innovadora para entrenar IA que sigue principios constitucionales",
@@ -822,7 +1037,11 @@ const companiesData = {
       "aiName": "AI21 Labs Jurassic",
       "companyName": "AI21 Labs",
       "description": "Modelos de lenguaje para comprensión de texto avanzada",
-      "founders": ["Ori Goshen", "Yoav Shoham", "Amnon Shashua"],
+      "founders": [
+        "Ori Goshen",
+        "Yoav Shoham",
+        "Amnon Shashua"
+      ],
       "foundingDate": "2017",
       "location": "Tel Aviv, Israel",
       "relevantFact": "Pioneros en modelos de lenguaje, fundada por académicos líderes en IA",
@@ -834,7 +1053,13 @@ const companiesData = {
       "aiName": "Lightricks AI",
       "companyName": "Lightricks",
       "description": "Suite de aplicaciones móviles con IA para creadores",
-      "founders": ["Zeev Farbman", "Yaron Inger", "Itai Tsiddon", "Amit Goldstein", "Nir Pochter"],
+      "founders": [
+        "Zeev Farbman",
+        "Yaron Inger",
+        "Itai Tsiddon",
+        "Amit Goldstein",
+        "Nir Pochter"
+      ],
       "foundingDate": "2013",
       "location": "Jerusalén, Israel",
       "relevantFact": "Desarrolladora de FaceTune y otras apps populares, pionera en IA móvil",
@@ -846,7 +1071,10 @@ const companiesData = {
       "aiName": "Pinecone",
       "companyName": "Pinecone",
       "description": "Base de datos vectorial para aplicaciones de IA",
-      "founders": ["Edo Liberty", "Ilan Ouzery"],
+      "founders": [
+        "Edo Liberty",
+        "Ilan Ouzery"
+      ],
       "foundingDate": "2019",
       "location": "Nueva York, EE.UU.",
       "relevantFact": "Infraestructura crítica para aplicaciones RAG y búsqueda semántica",
@@ -858,7 +1086,10 @@ const companiesData = {
       "aiName": "Weaviate",
       "companyName": "Weaviate",
       "description": "Base de datos vectorial open-source para IA",
-      "founders": ["Bob van Luijt", "Etienne Dilocker"],
+      "founders": [
+        "Bob van Luijt",
+        "Etienne Dilocker"
+      ],
       "foundingDate": "2019",
       "location": "Amsterdam, Países Bajos",
       "relevantFact": "Competidor open-source de Pinecone con enfoque en GraphQL",
@@ -870,7 +1101,10 @@ const companiesData = {
       "aiName": "Chroma",
       "companyName": "Chroma",
       "description": "Base de datos vectorial simple para desarrolladores",
-      "founders": ["Anton Troynikov", "Jeff Huber"],
+      "founders": [
+        "Anton Troynikov",
+        "Jeff Huber"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Base de datos vectorial más fácil de usar para aplicaciones de IA",
@@ -882,7 +1116,9 @@ const companiesData = {
       "aiName": "LangChain",
       "companyName": "LangChain",
       "description": "Framework para desarrollar aplicaciones con LLMs",
-      "founders": ["Harrison Chase"],
+      "founders": [
+        "Harrison Chase"
+      ],
       "foundingDate": "2022",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Framework más popular para construir aplicaciones con modelos de lenguaje",
@@ -894,7 +1130,10 @@ const companiesData = {
       "aiName": "Weights & Biases",
       "companyName": "Weights & Biases",
       "description": "Plataforma MLOps para entrenar y monitorear modelos ML",
-      "founders": ["Lukas Biewald", "Chris Van Pelt"],
+      "founders": [
+        "Lukas Biewald",
+        "Chris Van Pelt"
+      ],
       "foundingDate": "2017",
       "location": "San Francisco, California, EE.UU.",
       "relevantFact": "Herramienta estándar para tracking de experimentos de machine learning",
@@ -906,7 +1145,10 @@ const companiesData = {
       "aiName": "Modal",
       "companyName": "Modal Labs",
       "description": "Plataforma serverless para ejecutar código de IA en la nube",
-      "founders": ["Erik Bernhardsson", "Akshat Bubna"],
+      "founders": [
+        "Erik Bernhardsson",
+        "Akshat Bubna"
+      ],
       "foundingDate": "2021",
       "location": "Nueva York, EE.UU.",
       "relevantFact": "Permite ejecutar cualquier código Python en la nube con escalado automático",
@@ -918,7 +1160,11 @@ const companiesData = {
       "aiName": "Groq",
       "companyName": "Groq",
       "description": "Chips especializados para inferencia ultra-rápida de IA",
-      "founders": ["Jonathan Ross", "Igor Arsovski", "Dmitry Dzhulgakov"],
+      "founders": [
+        "Jonathan Ross",
+        "Igor Arsovski",
+        "Dmitry Dzhulgakov"
+      ],
       "foundingDate": "2016",
       "location": "Mountain View, California, EE.UU.",
       "relevantFact": "Ofrece la inferencia de LLM más rápida del mundo con sus chips LPU",
@@ -930,7 +1176,10 @@ const companiesData = {
       "aiName": "Cerebras",
       "companyName": "Cerebras Systems",
       "description": "Supercomputadoras especializadas para entrenamiento de IA",
-      "founders": ["Andrew Feldman", "Sean Lie"],
+      "founders": [
+        "Andrew Feldman",
+        "Sean Lie"
+      ],
       "foundingDate": "2016",
       "location": "Sunnyvale, California, EE.UU.",
       "relevantFact": "Creador del chip de IA más grande del mundo, del tamaño de una oblea",
@@ -942,7 +1191,10 @@ const companiesData = {
       "aiName": "Graphcore",
       "companyName": "Graphcore",
       "description": "Procesadores IPU especializados para machine learning",
-      "founders": ["Nigel Toon", "Simon Knowles"],
+      "founders": [
+        "Nigel Toon",
+        "Simon Knowles"
+      ],
       "foundingDate": "2016",
       "location": "Bristol, Reino Unido",
       "relevantFact": "Desarrolló IPUs como alternativa a GPUs para workloads de machine learning",
@@ -954,14 +1206,319 @@ const companiesData = {
       "aiName": "SambaNova",
       "companyName": "SambaNova Systems",
       "description": "Plataforma de IA empresarial con chips personalizados",
-      "founders": ["Rodrigo Liang", "Chris Ré", "Kunle Olukotun"],
+      "founders": [
+        "Rodrigo Liang",
+        "Chris Ré",
+        "Kunle Olukotun"
+      ],
       "foundingDate": "2017",
       "location": "Palo Alto, California, EE.UU.",
       "relevantFact": "Ofrece soluciones completas de IA con hardware y software integrados",
       "category": "enterprise",
       "color": "#ff3838"
+    },
+    {
+      "id": 81,
+      "aiName": "Sierra",
+      "companyName": "Sierra",
+      "description": "Chatbots de IA para clientes empresariales",
+      "founders": [
+        "Bret Taylor",
+        "Clay Bavor"
+      ],
+      "foundingDate": "2023",
+      "location": "San Francisco, California, EE.UU.",
+      "relevantFact": "En octubre 2024 levantó $175 millones con valoración de $4.5 mil millones. Fundada por ex-CTO de Salesforce y ex-VP de Google",
+      "category": "enterprise",
+      "color": "#6366f1"
+    },
+    {
+      "id": 82,
+      "aiName": "Liquid AI",
+      "companyName": "Liquid AI",
+      "description": "Modelos fundacionales de IA con arquitectura innovadora",
+      "founders": [
+        "Ramin Hasani",
+        "Daniela Rus",
+        "Michael Lechner"
+      ],
+      "foundingDate": "2023",
+      "location": "Cambridge, Massachusetts, EE.UU.",
+      "relevantFact": "En diciembre 2024 levantó $250 millones en Serie A valorada en $2.35 mil millones. Liderada por AMD Ventures",
+      "category": "text",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 83,
+      "aiName": "Safe Superintelligence (SSI)",
+      "companyName": "Safe Superintelligence Inc.",
+      "description": "Laboratorio enfocado en construir superinteligencia segura",
+      "founders": [
+        "Ilya Sutskever",
+        "Daniel Gross",
+        "Daniel Levy"
+      ],
+      "foundingDate": "2024",
+      "location": "Palo Alto, California, EE.UU.",
+      "relevantFact": "Fundada por ex-científico jefe de OpenAI Ilya Sutskever. Alcanzó estatus de unicornio en 2024 enfocándose exclusivamente en seguridad de IA",
+      "category": "safety",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 84,
+      "aiName": "Poolside",
+      "companyName": "Poolside",
+      "description": "Plataforma de desarrollo de software potenciada por IA",
+      "founders": [
+        "Jason Warner",
+        "Eiso Kant"
+      ],
+      "foundingDate": "2023",
+      "location": "San Francisco, California, EE.UU.",
+      "relevantFact": "En octubre 2024 cerró Serie B de $500 millones con valoración de $3 mil millones. Liderada por Bain Capital Ventures con participación de NVIDIA",
+      "category": "coding",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": 85,
+      "aiName": "Decagon",
+      "companyName": "Decagon",
+      "description": "Agentes de IA para servicio al cliente empresarial",
+      "founders": [
+        "Jesse Zhang",
+        "Ashwin Sreenivas"
+      ],
+      "foundingDate": "2023",
+      "location": "San Francisco, California, EE.UU.",
+      "relevantFact": "En octubre 2024 levantó $65 millones valorada en $650 millones. Usado por Notion, Duolingo y Rippling. Supera consistentemente a competidores en pruebas comparativas",
+      "category": "enterprise",
+      "color": "#14b8a6"
+    },
+    {
+      "id": 86,
+      "aiName": "Lightmatter",
+      "companyName": "Lightmatter",
+      "description": "Computación fotónica para aceleración de IA",
+      "founders": [
+        "Nicholas Harris",
+        "Darius Bunandar",
+        "Matthew Zimmermann"
+      ],
+      "foundingDate": "2017",
+      "location": "Mountain View, California, EE.UU.",
+      "relevantFact": "En octubre 2024 levantó $400 millones en Serie D liderada por T. Rowe Price con valoración de $4.4 mil millones. Ha recaudado más de $800 millones",
+      "category": "hardware",
+      "color": "#f59e0b"
+    },
+    {
+      "id": 87,
+      "aiName": "Skild AI",
+      "companyName": "Skild AI",
+      "description": "Cerebro de propósito general para robots",
+      "founders": [
+        "Deepak Pathak",
+        "Abhinav Gupta"
+      ],
+      "foundingDate": "2023",
+      "location": "Pittsburgh, Pennsylvania, EE.UU.",
+      "relevantFact": "Levantó $300 millones en Serie A julio 2024 valorada en $1.5 mil millones. En negociaciones con SoftBank por $500M adicionales cerca de valoración $4 mil millones",
+      "category": "robotics",
+      "color": "#ec4899"
+    },
+    {
+      "id": 88,
+      "aiName": "EvenUp",
+      "companyName": "EvenUp",
+      "description": "IA para tecnología legal y demandas por lesiones",
+      "founders": [
+        "Rami Karabibar",
+        "Saam Mashhad",
+        "Raymond Mieszaniec"
+      ],
+      "foundingDate": "2019",
+      "location": "San Francisco, California, EE.UU.",
+      "relevantFact": "En octubre 2024 levantó $135 millones en Serie D liderada por Bain Capital Ventures valorada en $1 mil millones, alcanzando estatus unicornio",
+      "category": "legal",
+      "color": "#6366f1"
+    },
+    {
+      "id": 89,
+      "aiName": "Xaira Therapeutics",
+      "companyName": "Xaira Therapeutics",
+      "description": "Descubrimiento de medicamentos usando IA",
+      "founders": [
+        "Marc Tessier-Lavigne",
+        "David Baker"
+      ],
+      "foundingDate": "2024",
+      "location": "San Francisco, California, EE.UU.",
+      "relevantFact": "Alcanzó estatus de unicornio en 2024. Combina biología estructural y aprendizaje automático para diseñar medicamentos transformadores",
+      "category": "healthcare",
+      "color": "#10b981"
+    },
+    {
+      "id": 90,
+      "aiName": "Motional",
+      "companyName": "Motional",
+      "description": "Tecnología de vehículos autónomos",
+      "founders": [
+        "Karl Iagnemma"
+      ],
+      "foundingDate": "2020",
+      "location": "Boston, Massachusetts, EE.UU.",
+      "relevantFact": "Joint venture entre Hyundai y Aptiv. Alcanzó estatus de unicornio en 2024. Opera robotaxis en múltiples ciudades de EE.UU.",
+      "category": "autonomous",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 91,
+      "aiName": "Celestial AI",
+      "companyName": "Celestial AI",
+      "description": "Redes de escala óptica para computación acelerada",
+      "founders": [
+        "Dave Lazovsky"
+      ],
+      "foundingDate": "2020",
+      "location": "Santa Clara, California, EE.UU.",
+      "relevantFact": "Alcanzó estatus de unicornio en 2024. Pionera en interconexiones ópticas para centros de datos de IA",
+      "category": "hardware",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 92,
+      "aiName": "Saronic Technologies",
+      "companyName": "Saronic Technologies",
+      "description": "Vehículos autónomos de superficie para la marina",
+      "founders": [
+        "Dino Mavrookas"
+      ],
+      "foundingDate": "2022",
+      "location": "Austin, Texas, EE.UU.",
+      "relevantFact": "Alcanzó estatus de unicornio en 2024. Desarrolla embarcaciones autónomas inteligentes para aplicaciones de defensa naval",
+      "category": "defense",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": 93,
+      "aiName": "Huntress",
+      "companyName": "Huntress",
+      "description": "Detección avanzada de amenazas y ciberseguridad",
+      "founders": [
+        "Kyle Hanslovan",
+        "Chris Bisnett"
+      ],
+      "foundingDate": "2015",
+      "location": "Ellicott City, Maryland, EE.UU.",
+      "relevantFact": "Alcanzó estatus de unicornio en 2024. Proporciona información de ciberseguridad accionable para pequeñas y medianas empresas",
+      "category": "cybersecurity",
+      "color": "#ef4444"
+    },
+    {
+      "id": 94,
+      "aiName": "Butterfly Effect (Manus)",
+      "companyName": "Butterfly Effect",
+      "description": "Sistema de IA que navega internet de forma autónoma",
+      "founders": [
+        "Chen Zhe"
+      ],
+      "foundingDate": "2024",
+      "location": "Wuhan, China",
+      "relevantFact": "En marzo 2025 lanzó Manus, competidor de Operator de OpenAI. Negocia financiación de inversores estadounidenses con valoración de $500 millones",
+      "category": "automation",
+      "color": "#f59e0b"
+    },
+    {
+      "id": 95,
+      "aiName": "StepFun (Yuanbao)",
+      "companyName": "StepFun",
+      "description": "Modelos multimodales y plataforma de IA",
+      "founders": [
+        "Jiang Daxin"
+      ],
+      "foundingDate": "2023",
+      "location": "Beijing, China",
+      "relevantFact": "Una de las startups chinas de IA más prometedoras. Ayudó a organizar Model-Chips Ecosystem Innovation Alliance en 2024",
+      "category": "text",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 96,
+      "aiName": "Agibot",
+      "companyName": "Agibot",
+      "description": "Robots humanoides con IA",
+      "founders": [
+        "Peng Zhihui"
+      ],
+      "foundingDate": "2023",
+      "location": "Shenzhen, China",
+      "relevantFact": "Produjo 1,000 robots bípedos con IA en 2024. Planea aumentar a 5,000 para fin de año. Competidor de Tesla Optimus",
+      "category": "robotics",
+      "color": "#10b981"
+    },
+    {
+      "id": 97,
+      "aiName": "Intuition Robotics (ElliQ)",
+      "companyName": "Intuition Robotics",
+      "description": "Compañeros robóticos con IA para cuidado de ancianos",
+      "founders": [
+        "Dor Skuler"
+      ],
+      "foundingDate": "2016",
+      "location": "Ramat Gan, Israel",
+      "relevantFact": "ElliQ es un robot de compañía impulsado por IA que asiste con tareas diarias y proporciona compañía a adultos mayores",
+      "category": "healthcare",
+      "color": "#06b6d4"
+    },
+    {
+      "id": 98,
+      "aiName": "SandboxAQ",
+      "companyName": "SandboxAQ",
+      "description": "IA cuántica para ciberseguridad y simulación",
+      "founders": [
+        "Jack Hidary"
+      ],
+      "foundingDate": "2022",
+      "location": "Palo Alto, California, EE.UU.",
+      "relevantFact": "Spin-off de Alphabet. Combina IA y computación cuántica para soluciones empresariales en ciberseguridad, farmacéutica y materiales",
+      "category": "quantum",
+      "color": "#6366f1"
+    },
+    {
+      "id": 99,
+      "aiName": "Multiverse Computing",
+      "companyName": "Multiverse Computing",
+      "description": "Software de computación cuántica para empresas",
+      "founders": [
+        "Enrique Lizaso",
+        "Roman Orus",
+        "Samuel Mugel"
+      ],
+      "foundingDate": "2019",
+      "location": "San Sebastián, España",
+      "relevantFact": "Única startup española en AI 100 de CB Insights. Desarrolla software para aprovechar dispositivos cuánticos avanzados y entregar valor empresarial",
+      "category": "quantum",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 100,
+      "aiName": "Tractian",
+      "companyName": "Tractian",
+      "description": "Inteligencia de máquinas para mantenimiento predictivo",
+      "founders": [
+        "Igor Marinelli"
+      ],
+      "foundingDate": "2019",
+      "location": "Atlanta, Georgia, EE.UU. / São Paulo, Brasil",
+      "relevantFact": "En diciembre 2024 levantó $120 millones en Serie C valorada en $720 millones. Líder en machine intelligence para operaciones industriales",
+      "category": "industrial",
+      "color": "#10b981"
     }
-  ]
+  ],
+  "metadata": {
+    "totalCompanies": 100,
+    "lastUpdate": "Octubre 2024",
+    "description": "Las 100 empresas de IA más relevantes con información actualizada de octubre 2024"
+  }
 };
 
 // Global variables
@@ -983,39 +1540,45 @@ const categoryStatsElement = document.getElementById('categoryStats');
 
 // Enhanced category translations
 const categoryTranslations = {
-  'text': 'Texto',
-  'image': 'Imagen', 
-  'productivity': 'Productividad',
-  'platform': 'Plataforma',
-  'search': 'Búsqueda',
-  'video': 'Video',
-  'multimodal': 'Multimodal',
-  'personal': 'Personal',
-  'vision': 'Visión',
-  'entertainment': 'Entretenimiento',
-  'writing': 'Escritura',
-  'audio': 'Audio',
-  '3d': '3D',
-  'coding': 'Programación',
-  'design': 'Diseño',
-  'presentation': 'Presentaciones',
-  'healthcare': 'Salud',
-  'fintech': 'Fintech',
-  'biometrics': 'Biometría',
-  'translation': 'Traducción',
-  'marketing': 'Marketing',
-  'photo': 'Foto',
-  'infrastructure': 'Infraestructura',
-  'framework': 'Framework',
-  'mlops': 'MLOps',
-  'cloud': 'Nube',
-  'hardware': 'Hardware',
-  'enterprise': 'Empresarial',
-  'safety': 'Seguridad',
-  'mobile': 'Móvil',
-  'automation': 'Automatización',
-  'legal': 'Legal',
-  'data': 'Datos'
+    'text': 'Texto',
+    'image': 'Imagen',
+    'productivity': 'Productividad',
+    'platform': 'Plataforma',
+    'search': 'Búsqueda',
+    'video': 'Video',
+    'multimodal': 'Multimodal',
+    'personal': 'Personal',
+    'vision': 'Visión',
+    'entertainment': 'Entretenimiento',
+    'writing': 'Escritura',
+    'audio': 'Audio',
+    '3d': '3D',
+    'coding': 'Programación',
+    'design': 'Diseño',
+    'presentation': 'Presentaciones',
+    'healthcare': 'Salud',
+    'fintech': 'Fintech',
+    'biometrics': 'Biometría',
+    'translation': 'Traducción',
+    'marketing': 'Marketing',
+    'photo': 'Foto',
+    'infrastructure': 'Infraestructura',
+    'framework': 'Framework',
+    'mlops': 'MLOps',
+    'cloud': 'Nube',
+    'hardware': 'Hardware',
+    'enterprise': 'Empresarial',
+    'safety': 'Seguridad',
+    'mobile': 'Móvil',
+    'automation': 'Automatización',
+    'legal': 'Legal',
+    'data': 'Datos',
+    'robotics': 'Robótica',
+    'quantum': 'Cuántica',
+    'autonomous': 'Autónomo',
+    'defense': 'Defensa',
+    'cybersecurity': 'Ciberseguridad',
+    'industrial': 'Industrial'
 };
 
 // Utility function to get initials
